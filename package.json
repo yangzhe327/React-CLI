@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "create": "node ./index.js"
+    "react-cli": "node ./index.js"
   },
   "repository": {
     "type": "git",
