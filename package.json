@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-app-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "self use",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,11 @@
   "bin": {
     "create": "node ./index.js"
   },
+  "files": [
+    "index.js",
+    "createReact.js",
+    "template/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yangzhe327/React-CLI.git"
