@@ -1,0 +1,30 @@
+{
+  "name": "react-cli",
+  "version": "1.0.0",
+  "description": "self use",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "create": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangzhe327/React-CLI.git"
+  },
+  "keywords": [
+    "React",
+    "CLI"
+  ],
+  "author": "Yang Zhe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangzhe327/React-CLI/issues"
+  },
+  "homepage": "https://github.com/yangzhe327/React-CLI#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.1.0",
+    "inquirer": "^8.0.0",
+    "shelljs": "^0.8.4"
+  }
+}
