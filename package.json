@@ -1,11 +1,13 @@
 {
-  "name": "react-cli",
+  "name": "react-webpack-app-cli",
   "version": "1.0.0",
   "description": "self use",
   "main": "index.js",
-  "private": true,
   "scripts": {
-    "react-cli": "node ./index.js"
+    "create": "node ./index.js"
+  },
+  "bin": {
+    "create": "node ./index.js"
   },
   "repository": {
     "type": "git",

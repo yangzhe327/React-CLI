@@ -24,7 +24,7 @@ module.exports = merge(webpackCommon, {
           },
           {
             loader: 'less-loader',
-            options: { plugins: [new CleanCSSPlugin({ advan })] }
+            options: { plugins: [new CleanCSSPlugin({ advanced: true })] }
           }]
       }
     ]
